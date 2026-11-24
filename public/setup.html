@@ -1,0 +1,23 @@
+
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>إنشاء مدير المتجر</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main style="max-width:500px;margin:50px auto;padding:20px">
+    <h1>إنشاء حساب المدير الأول</h1>
+    <form id="setupForm">
+      <p><input name="setup_key" type="password" placeholder="مفتاح SETUP_KEY" required></p>
+      <p><input name="username" placeholder="اسم المستخدم" required></p>
+      <p><input name="password" type="password" placeholder="كلمة المرور (12 حرفًا على الأقل)" minlength="12" required></p>
+      <button class="btn" type="submit">إنشاء حساب المدير</button>
+    </form>
+    <p id="result"></p>
+  </main>
+  <script src="/setup.js"></script>
+</body>
+</html>
